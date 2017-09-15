@@ -1,0 +1,30 @@
+{
+  "name": "http-range-fs",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "license": "MIT",
+  "private": true,
+  "keywords": [],
+  "main": "lib/http-fs.js",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "udif": "^0.10.0"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/http-range-fs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/http-range-fs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/http-range-fs/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
