@@ -8,11 +8,9 @@
   "keywords": [],
   "main": "lib/http-fs.js",
   "dependencies": {
-    "debug": "^2.6.8",
-    "request": "^2.81.0"
-  },
-  "devDependencies": {
-    "udif": "^0.10.0"
+    "debug": "^3.0.1",
+    "request": "^2.81.0",
+    "udif": "github:jhermsmeier/node-udif#custom-fs"
   },
   "peerDependencies": {},
   "optionalDependencies": {},
@@ -25,6 +23,6 @@
     "url": "https://github.com/jhermsmeier/http-range-fs/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "DEBUG='http-fs' node example/open.js"
   }
 }
